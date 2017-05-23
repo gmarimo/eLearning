@@ -1,0 +1,102 @@
+
+
+
+body{}
+#main_container{ /*main page wrapper*/
+	margin: 0px auto;
+	margin-top: 100px;
+	background-image: url("../images/qe.jpg");
+	background-size: 100%;
+	background-position: relative;
+	top: 0;
+	bottom: 0;
+	z-index: -10;
+	height: auto;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#overlay{
+	background-color: rgba(0, 0, 255, 0.3);
+	position: ;
+	background-size: 100%;
+	z-index: -10;
+}
+
+#content_wrapper{ /*content styling*/
+	margin: 0px auto;
+}
+
+#navbar_style{ /*styling navigation bar*/
+        background-color: #07889b;
+        height:;
+        padding: 20px;
+}
+#navbar_header_style{
+	height: 40px;
+	padding: 20px;
+	color: #ff8c00;
+}
+
+/*begin content styling with div id */
+#olevel_maths{ 
+	text-align: center;
+}
+#olevel_english{
+	text-align: center;
+}
+#olevel_intscience{
+	text-align: center;
+}
+#olevel_commerce{
+	text-align: center;
+}
+#olevel_accounts{
+    text-align: center;
+}
+#olevel_geo{
+    text-align: center;
+}
+#olevel_physics{
+	text-align: center;
+}
+#olevel_chem{
+    text-align: center;
+}
+#olevel_biology{
+    text-align: center;
+}
+#olevel_computerscience{
+	text-align: center;
+}
+#olevel_heritage{
+    text-align: center;
+}
+#olevel_shona{
+    text-align: center;
+}
+/*end content styling by div id*/
+
+#row_1{
+padding: 10px;
+/*background: rgba(0, 0, 255, 0.5);
+border: 10px solid rgba(0, 0, 255, 0.3);*/
+}
+
+
+
+#loginForm{
+  margin: 0px auto;
+  width: 40%;
+  margin-top: 50px;
+  color: #ff8c00;
+}
+
+
+#subs_content{
+	margin: 0px auto;
+}
+
+#main_wrapper{/*main mathematics subject page*/
+	margin-top: 100px;
+}
+

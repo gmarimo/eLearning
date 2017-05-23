@@ -1,0 +1,40 @@
+
+
+
+/*sidebar nav styling*/
+#sidebar_nav{
+    float: left;
+    width: 400px;
+    background: #000000;
+    color: #ffffff;
+}
+
+#main_content{ /*main content styling*/
+    float: left;
+    margin-left: 40px;
+}
+#main_wrapper{
+	margin-top: 50px;
+}
+#sidebar_nav ul li{
+	list-style-type: none;
+}
+#sidebar_nav ul li:hover{
+	color: #ff8c00;
+}
+#sidebar_nav ul li a{
+	padding: 0px;
+}
+
+#videoplay{
+	border: 2px solid #ff8c00;
+	margin: 20px;
+	padding: 10px;
+	position: ;
+}
+#videoplay_content{
+	padding: 10px;
+}
+#main_container_window{
+	margin-top: 130px
+}
