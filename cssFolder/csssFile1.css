@@ -3,19 +3,38 @@
 
 /*sidebar nav styling*/
 #sidebar_nav{
-    float: left;
-    width: 400px;
+    width: 0px;
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    overflow-y: hidden; 
     background: #000000;
     color: #ffffff;
+    opacity: 0.9;
+
 }
 
 #main_content{ /*main content styling*/
-    float: left;
-    margin-left: 40px;
+width: 100%;
+position: absolute;
+padding: 15px;    
 }
-#main_wrapper{
-	margin-top: 50px;
+
+#main_wrapper.menuDisplayed #sidebar_nav{ /*sidebar display on menu click*/
+	width: 250px;
+	
 }
+
+#main_wrapper.menuDisplayed #main_content{ /*main content adjustment to sidebar*/
+	padding-left: 250px;
+}
+
+#main_wrapper{/*main page top margin*/
+	margin-top: 200px;
+}
+
+
+
 #sidebar_nav ul li{
 	list-style-type: none;
 }
@@ -35,6 +54,58 @@
 #videoplay_content{
 	padding: 10px;
 }
-#main_container_window{
-	margin-top: 130px
+#main_container_window{ /*main playlist window*/
+	margin-top: 150px;
+}
+
+#play-icon{color: #07889b;}
+
+
+
+#page_attributes{ /*hidden sidebar , progressbar*/
+	background: #ff8c00;
+	margin-top: 10px;
+}
+
+#maincontainer_lecture{/*page wrapper lecturer section*/
+	width: 80%;
+	margin: 0px auto;
+}
+#maincontent_lecture{ 
+	margin-top: 60px;
+	margin-bottom: 50px;
+}
+h4{margin-left: 100px;}
+#uploadBtn{ /*upload button*/
+	margin-left: ;
+	margin-left: 150px;
+
+	} 
+
+#percentageProgress{/*uploading video progress bar*/
+
+	width: 10%;
+	background-color: #07889b;
+	color: #ff8c00;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	border: 1px solid #ff8c00;
+	margin-left: 20px;
+	
+
+}
+
+#uploadCont{
+	width: 70%;
+	margin: 0px auto;
+}
+
+#bar_styling{
+	width: 50%;
+}
+
+#top-nav{
+	background: #07889b;
+	height: 80px;
 }

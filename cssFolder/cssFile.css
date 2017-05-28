@@ -4,7 +4,7 @@
 body{}
 #main_container{ /*main page wrapper*/
 	margin: 0px auto;
-	margin-top: 100px;
+	margin-top: 150px;
 	background-image: url("../images/qe.jpg");
 	background-size: 100%;
 	background-position: relative;
@@ -28,13 +28,18 @@ body{}
 
 #navbar_style{ /*styling navigation bar*/
         background-color: #07889b;
-        height:;
+        height: 130px;
         padding: 20px;
+}
+#ul-nav-style{
+	margin-top: 80px;
+	background-color: #07889b;
 }
 #navbar_header_style{
 	height: 40px;
 	padding: 20px;
 	color: #ff8c00;
+	background-color: #07889b;
 }
 
 /*begin content styling with div id */
@@ -98,5 +103,64 @@ border: 10px solid rgba(0, 0, 255, 0.3);*/
 
 #main_wrapper{/*main mathematics subject page*/
 	margin-top: 100px;
+}
+
+#homepage_rightnav li a{ /*header nav styling*/
+	color: #ffffff;
+	padding: 5px;
+	border: 1px solid #ffffff;
+
+}
+
+#navbar_leftmenu{
+	background: #07889b;
+	
+
+}
+#navbar_leftmenu li a{ /*header nav styling*/
+	color: #ffffff;
+	padding: 10px;
+
+}
+#navbar_leftmenu li a:hover{ /*header nav styling*/
+	color: #ff8c00;
+	border-bottom: 1px solid #ff8c00;
+}
+#navbar_rightmenu{
+	background: #07889b;
+	margin-left: 60px;
+	
+}
+#navbar_rightmenu li a{
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	padding: 5px;
+
+}
+#navbar_rightmenu li a:hover{
+	color: #ff8c00;
+	border: 1px solid #ff8c00;
+}
+
+#navbar-brand{
+	margin-bottom: 60px;
+	position: relative;
+}
+
+#logo-image{
+	text-align: left;
+	position: absolute;
+}
+
+.navbar-collapse .collapse{
+	width: 100%;
+}
+
+#topic-list{ /*styling the list of major topics*/
+
+	border: 1px solid #07889b;
+	color: #07889b;
+	padding: 10px;
+
 }
 

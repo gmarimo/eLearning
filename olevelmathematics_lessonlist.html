@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>'O' Level Maths Playlist</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="cssFolder/csssFile1.css">
     <link rel="stylesheet" type="text/css" href="cssFolder/cssFile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -21,31 +22,38 @@
   </head>
   <body>
 
-    <!-- Fixed navbar -->
+     <!-- Fixed navbar -->
     <nav class="navbar navbar-default navbar-fixed-top" id="navbar_style">
       <div class="container">
-        <div class="navbar-header" id="navbar_header_style">
+        <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"></a>
+
+          <a class="navbar-brand" id="navbar-brand" href="welcomepage_olevel.html"><img src = "images/ecr.png" width="180" height="50px"></a>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+        
+        <div id="navbar" class="navbar-collapse collapse" id="ul-nav-style">
+
+          <ul class="nav navbar-nav" id="navbar_leftmenu">
+            <li class=""><a href="welcomepage_olevel.html">Home</a></li>
+            <li><a href="qaforum.html">Forum</a></li>
+            <li><a href="aboutauspage.html">About Us</a></li>
+            <li><a href="contactuspage.html">Contact Us</a></li>
             
           </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="olevel_mathematics.html">&larr; Go Back</a></li>
-            <li><a href="../navbar-static-top/">Static top</a></li>
-            <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
+          <ul class="nav navbar-nav navbar-right" id="navbar_rightmenu">
+            <li><a href="#">Become Lecturer</a></li>
+            <li><a href="olevel_mathematics.html">My Profile</a></li>
+            <li><a href="loginPage.html">Login</a></li>
+            <li><a href="registrationForm.html">Register</a></li>
           </ul>
-        </div><!--/.nav-collapse -->
+            
+         </div><!--/.nav-collapse -->
+          
       </div>
     </nav>
 
@@ -54,25 +62,26 @@
 
 
     <div class="container" id="main_container_window">
+      <a href = "olevel_mathematics.html">&larr; Go Back</a><br><br>
           <div id="lesson_row">
             <table class="table table-striped">
               <tr>
-                <td><img src="images/playvideo.png" width="50px" height="50px"></td>
-                <td><b>Lesson 1</b><br>Reduce to quadratic formula Junee 2012 ZIMSEC
+                <td><i class="fa fa-play-circle-o" id="play-icon" style="font-size:48px;"</i></td>
+                <td><b>'O' Level Maths - Lesson 1</b><br>Reduce to quadratic formula Junee 2012 ZIMSEC
                 <input type="button" value="Watch Video" onclick="play_video()">
                 <input type="checkbox"></td>
                 
               </tr>
 
               <tr>
-                <td><img src="images/playvideo.png" width="50px" height="50px"></td>
+                <td><i class="fa fa-play-circle-o" id="play-icon" style="font-size:48px;"</i></td>
                 <td><b>Lesson 2</b><br>Reduce to quadratic formula Junee 2012 ZIMSEC
                   <input type="button" value="Watch Video" onclick="">
                 </td>
               </tr>
 
               <tr>
-                <td><img src="images/playvideo.png" width="50px" height="50px"></td>
+                <td><i class="fa fa-play-circle-o" id="play-icon" style="font-size:48px;"</i></td>
                 <td><b>Lesson 3</b><br>Reduce to quadratic formula Junee 2012 ZIMSEC
 
                   <input type="button" value="Watch Video" onclick="">
@@ -80,7 +89,7 @@
               </tr>
 
               <tr>
-                <td><img src="images/playvideo.png" width="50px" height="50px"></td>
+                <td><i class="fa fa-play-circle-o" id="play-icon" style="font-size:48px;"</i></td>
                 <td><b>Lesson 4</b><br>Reduce to quadratic formula Junee 2012 ZIMSEC
                   <input type="button" value="Watch Video" onclick="">
                 </td>

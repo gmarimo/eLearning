@@ -1,4 +1,4 @@
-                                                                                                                                                                                                                                                                                                                                            <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -10,6 +10,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="cssFolder/cssFile.css">
+    <link rel="stylesheet" type="text/css" href="cssFolder/csssFile1.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -19,12 +20,48 @@
     <![endif]-->
   </head>
   <body>
+
+      <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top" id="navbar_style">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a class="navbar-brand" id="navbar-brand" href="welcomepage_olevel.html"><img src = "images/ecr.png" width="180" height="50px"></a>
+        </div>
+        
+        <div id="navbar" class="navbar-collapse collapse" id="ul-nav-style">
+
+          <ul class="nav navbar-nav" id="navbar_leftmenu">
+            <li class=""><a href="welcomepage_olevel.html">Home</a></li>
+            <li><a href="qaforum.html">Forum</a></li>
+            <li><a href="aboutauspage.html">About Us</a></li>
+            <li><a href="contactuspage.html">Contact Us</a></li>
+            
+          </ul>
+          <ul class="nav navbar-nav navbar-right" id="navbar_rightmenu">
+            <li><a href="#">Become Lecturer</a></li>
+            <li><a href="olevel_mathematics.html">My Profile</a></li>
+            <li><a href="loginPage.html">Login</a></li>
+            <li><a href="registrationForm.html">Register</a></li>
+            
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <br><br><br><br>
     <div id="loginForm">
       <h3><u>Login</u></h3>
-                        <form>
-                            <div class="form-group">
-                              <label for="exampleInputEmail1">Email address</label>
-                              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+          <form>
+              <div class="form-group">
+                      <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
                             </div>
                             <div class="form-group">
                               <label for="exampleInputPassword1">Password</label>
@@ -37,6 +74,8 @@
                     <br>
 
                     <h3><a href="registrationForm.html">Create Account</a></h3>
+
+                    <img src="images/codel_logo.png">
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

@@ -1,6 +1,6 @@
 
 
-function validate_form(){
+function validate_form(){ //validating form fields
 	password_field = document.getElementById('regPassword');
 	retype_password = document.getElementById('regPassword_1');
 
@@ -20,4 +20,9 @@ function validate_form(){
 		return false;
 	}
 }
+
+function playlistWindow(){
+		window.open('olevelmathematics_lessonlist.html','_self');
+}
+
 
